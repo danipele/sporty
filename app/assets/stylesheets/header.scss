@@ -1,0 +1,51 @@
+header {
+  height: 75px;
+  border-bottom: #e4e4e4 1px solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrapper {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-logo {
+  height: 40px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  background-color: white;
+  font-weight: 550;
+  cursor: pointer;
+  margin: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif, serif;
+  font-size: 16px;
+  letter-spacing: .025em;
+}
+
+.sign-in-button {
+  height: 40px;
+  color: #277727;
+  border: 1px #277727 solid;
+  border-radius: 4px;
+  padding: 5px 20px;
+  margin-right: 0;
+}
+
+.own-base-button {
+  color: #545252;
+  border: 0;
+  padding: 0;
+  letter-spacing: .025em;
+}
