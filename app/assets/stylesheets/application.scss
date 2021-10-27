@@ -1,6 +1,22 @@
 @import "dashboard";
 @import "header";
+@import "admin";
 
 body {
   margin: 0;
+}
+
+.content-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-box-wrapper {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
